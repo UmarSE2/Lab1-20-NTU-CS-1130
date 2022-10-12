@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learning HTML</title>
+  </head>
+  <body>
+    <nav>
+      <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a> |
+      <a href="https://www.w3schools.com/css/default.asp" target="_self">CSS</a> |
+      <a href="https://www.w3schools.com/js/default.asp">JavaScript</a> |
+      <a href="https://www.w3schools.com/php/default.asp">PHP</a>
+    </nav>
+    
+    <h1>Making Form</h2>
+      
+    <form>
+    <fieldset> 
+      <legend>Personal Information</legend>
+      First Name : <input type="text" value="Muhammad" readonly>
+      <br><br>
+
+      Last Name : <input type="text" value="Umar" readonly>
+      <br><br>
+      
+      Email : <input type="email" name="" id="" required="required">
+      <br><br>
+      
+      Contact Number : <input type="text" placeholder="Phone Number">
+      <br><br>
+      
+      Password : <input type="password" name="" id="" required="required">
+      <br><br>
+      
+      Favourite Color : <input type="color" name="" id="">
+      <br><br>
+      
+      Date of Birth : <input type="date" name="" id="">
+      <br><br>
+      
+      Upload Pic : <input type="file" name="" id="">
+      <br><br>
+      
+      Time of Submitting Form : <input type="time" name="" id="">
+      <br><br>
+
+      Gender : 
+      <input type="radio" name="gender" id="">Male
+      <input type="radio" name="gender">Female
+      <input type="radio" name="gender">Transgander
+      <br><br>
+
+      Select Degree :
+      <input type="checkbox" name="" id="">Software Engineering
+      <input type="checkbox" name="" id="">Computer Science 
+      <input type="checkbox" name="" id="">Artifical Intelligence 
+      <br><br>
+
+      Which one you like ? 
+      <select>  
+        <option value="">Web Development</option>
+        <option value="">App Development</option>
+        <option value="">Machine Learning</option>
+        <option value="">Cyber Security</option>
+      </select>
+      <br>
+
+      <p>Description :</p>
+      <textarea rows="10" cols="80" placeholder="Describe yourself here..."></textarea>
+      <br><br>
+
+      <button>Submit</button>
+    </fieldset>
+    </form>
+    
+    <main>    
+      <article>
+        <h2>Pakistan Cricket Team</h2>
+        <p>The Pakistan national cricket team, often referred to as the Shaheens ('Falcons'), Green Shirts, Men in Green and Cornered Tigers is administered by the Pakistan Cricket Board (PCB).
+          The team is a Full Member of the International Cricket Council, and participates in Test, One Day International (ODI) and Twenty20 International cricket matches.</p>
+      </article>
+    </main>
+
+    <h2><i>Players Table</i></h2>
+    <table border="10">
+      
+      <thead>
+        <tr>
+          <th>Shirt No.</th>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Team</th>
+        </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+        <td>56</td>
+        <td>Babar Azam<sup> c</sup> </td>
+        <td>Batsman</td>
+        <td rowspan="4"><strong>Pakistan</strong></td>
+      </tr>
+
+      <tr>
+        <td>16</td>
+        <td>Muhammad Rizwan</td>
+        <td>Wicket-Keeper</td>
+      </tr>
+
+      <tr>
+        <td>7</td>
+        <td>Shadab Khan</td>
+        <td>All Rounder</td>
+      </tr>
+
+      <tr>
+        <td>45</td>
+        <td>Asif Ali</td>
+        <td>Six Hitter</td>
+      </tr>
+    </tbody>
+
+      <tr>
+        <th colspan="4"><mark>They are All Match Winners</mark></th>
+      </tr>
+
+      <tfoot>  
+        <tr>
+          <th>Head Coach</th>
+          <th>Batting Coach</th>
+          <th>Bowling Coach</th>
+          <th>Fielding Coach</th>
+        </tr>
+
+        <tr>
+          <td>Saqlain Mushtaq</td>
+          <td>Muhammad Yousuf</td>
+          <td>Shaun Tait</td>
+          <td>Abdul Majeed</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    
+    <h3>This Match Winning Moment of 2<sup>nd</sup> ODI Match was Priceless!!!</h3>
+    <video width="600" height="300" controls>
+      <source src="200chase.mp4" type="video/mp4">
+    </video><br><br>
+
+    <p><big>And the <abbr title="Man of the Match">MoM</abbr> was <b>Babar Azam</b></big></p>
+    <a href="https://www.espncricinfo.com/player/babar-azam-348144" target="_blank">
+      <img src="babar.jpg" alt="Babar's image" width="30%" height="15%"/></a><br><br>
+
+    <h2><xmp>Enjoy the Moment with PSL Song</xmp></h2>
+    <audio controls autoplay>
+      <source src="pslsong.mp3" type="audio/mp3">
+    </audio>
+    <br><br>
+
+    <h4><u>Cricket Ground Looks Like this :</u></h4>
+    <svg width="200" height="170">
+      <circle cx="100" cy="80" r="75" stroke="yellow" stroke-width="6" fill="green"/>
+    </svg>
+    <br>
+
+    <h3>Top Cricket Gorunds are : </h3>
+    <ul>
+      <li>Melbourne Cricket Ground</li>
+      <li><data>Lords Cricket Stadium</data></li>
+      <li><data>National Cricket Stadium</data></li>
+      <li><data>Abu Dhabi Cricket Stadium</data></li>
+    </ul>
+     
+    <details>
+      <summary><big><b>T20 World Cup</b></big></summary>
+      <p>The ICC Men's T20 World Cup (earlier known as ICC World Twenty20) is the international championship of Twenty20 cricket. Organised by cricket's governing body, the International Cricket Council <sub>(ICC)</sub>, 
+        the tournament currently consists of 16 teams, comprising the top ten teams from the rankings at the given deadline and six other teams chosen through the T20 World Cup Qualifier.</p>
+    </details>
+
+    <h3>Pakistani Team for T20 World Cup 2022 Should be :</h3>
+    <ol>
+      <li>Babar Azam<sup> c</sup></li>
+      <li>Muhammad Rizwan<sup> +</sup></li>
+      <li>Fakhar Zaman</li>
+      <li>Shoaib Malik</li>
+      <li>Iftikhar Ahmad</li>
+      <li>Asif Ali</li>
+      <li>Shadab Khan<sup> vc</sup></li>
+      <li>Muhammad Nawaz</li>
+      <li>Naseem Shah</li>
+      <li>Shaheen Shah Afridi</li>
+      <li>Haris Rauf</li>
+    </ol>
+
+    <dialog open>We Have We Will</dialog><br>
+    <h3>And the Slogen of Pakistan Cricket Team for T20 World Cup 2022 in Australia is</h3>
+
+    <p>The Color of Pakistani Team Shirt is <del>Light Green</del> <ins>Dark Green</ins>!</p>
+    <marquee width="25%" direction="right" height="100px"><h2>We are Thunders</h2></marquee>
+  </body>  
+</html>
